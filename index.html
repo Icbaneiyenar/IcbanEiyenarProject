@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Website</title>
+  </head>
+  <body>
+    <nav>
+      <div class="reveal">
+        <div class="logo"><a href="#">Eiyenar Icban</a></div>
+        <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+          </label>
+          <input type="checkbox" name="check" id="check" >
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Eiyenar<br></span> IT student
+          </h1>
+          <p class="description">
+            My plan is to grow as a creative developer,<br>
+            building things that inspire and make life a little easier.
+          </p>
+          <div class="social-icons">
+  <a href="https://www.facebook.com/icbaneiyenar" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/_eynarr/" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+        </div>
+        <div class="image">
+          <img src="enar.jpg" alt="profile" >
+        </div>
+      </div>
+    </section>
+    
+    <section class="about" id="About">
+    <h1>ABOUT ME</h1>
+      <div class="par">
+      <p class="bio"> Hi I'm <strong>Eiyenar B. Icban</strong>, First year IT student. I enjoy learning about computers, websites and how things work in technology.
+        I'm still new to <strong>IT</strong>, but I'm excited to learn more. I like trying new things, solving problems, and working on small projects. Right now, I'm learning how to code, make websites, and use different programs.
+        This website shows some of the things I've done so far. I made it to show my work and practice what I learn. Feel free to look around and this is some skills that I have.
+        </p>
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">UI/UX Design</span>
+        <span class="skill">Photography</span>
+      </div>
+    </section>
+
+   <section class="project" id="project">
+    <h1>MY <span>PROJECTS</span></h1>
+    <div class="services">
+      <div class="card">
+        <div class="icon">&#x3C;&#x3E;</div>
+        <h3>Project One</h3>
+        <p>Calculate sum...</p>
+        <a href="https://codepen.io/Eiyenar-Icban/full/zxxRyVB" class="btn">See work</a>
+      </div>
+      <div class="card">
+        <div class="icon">&#x1F3A8;</div>
+        <h3>Project Two</h3>
+        <p>UI/UX Design...</p>
+        <a href="https://www.figma.com/proto/ClzUoDZqGe8vG51XGWiURV/TravelNar?node-id=13-3" class="btn">See work</a>
+      </div>
+      <div class="card">
+        <div class="icon">&#x1F916;</div>
+        <h3>Project Three</h3>
+        <p>Basic Website...</p>
+        <a href="https://codepen.io/Eiyenar-Icban/full/raaMKzz" class="btn">See work</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <form id="contactForm">
+    <label for="name">Name *</label>
+    <input type="text" id="name" name="name" required>
+    <span class="error">Please enter your name.</span>
+
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error">Please enter your email.</span>
+
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <span class="error">Please enter your message.</span>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+  
+<footer class="footer">
+  <div class="footer-content">
+    <p>© 2025 Eiyenar Icban. All rights reserved.</p>
+    <div class="footer-socials">
+      <a href="https://www.facebook.com/icbaneiyenar" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+    </div>
+  </div>
+</footer>
+
+      
+        <script src="scripts.js"></script>
+  </body>
+</html>
